@@ -15,21 +15,24 @@
     .navbar-nav{
         margin-left:0 !important;
     }
+    .nav-icons{
+        padding-left:0 !important;
+    }
 }
 
-.navbar-nav li a, .navbar-nav svg path{
+.navbar-nav li a{
     font-weight:900;
     color: #222222 !important;
 }
 .navbar-nav{
-    margin-left:300px;
+    margin-left:380px;
 }
 .collapse .bi{
     padding:15px;
     font-size:20px;
 }
 .nav-icons{
-    padding-left:20px;
+    padding-left:80px;
 }
   .dropdown:hover .dropdown-menu {
     display: block;
