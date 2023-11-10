@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+* {
+    font-family: Gothic A1;
+}
+
+.col-md-2 i {
+    padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .hidden {
+        display: none;
+    }
+    .navbar-nav{
+        margin-left:0 !important;
+    }
+}
+
+.navbar-nav li a, .navbar-nav svg path{
+    font-weight:900;
+    color: #222222 !important;
+}
+.navbar-nav{
+    margin-left:300px;
+}
+.collapse .bi{
+    padding:15px;
+    font-size:20px;
+}
+.nav-icons{
+    padding-left:20px;
+}
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .dropdown { 
+    position:static !important; 
+}
+.dropdown-menu{ 
+    margin-top:0px !important; 
+    width:100% !important;
+    background-color: #F0F0F0 !important;
+    border:0 !important;
+}
+.nav-link{
+    height:80px;
+}
+.navbar-nav li a:hover{
+    border-bottom:2px solid black;
+}
+.dropdown-menu .col-md-3 a{
+    background-color: #F0F0F0;
+}
